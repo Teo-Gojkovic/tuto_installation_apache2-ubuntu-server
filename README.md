@@ -68,12 +68,17 @@ Changer le port  par défaut :
 ```bash
 sudo nano /etc/apache2/sites-available/000-default.conf
 ```
+Faire de meme dans /etc/apache2/ports.conf : 
+```bash
+sudo nano /etc/apache2/ports.conf
+```
 Et changer le port 80 en port de votre choix, le miens c'est 456.
 
 On va maintenant ouvrir le port depuis Ubuntu Server : 
 ```bash
 sudo ufw allow 456
 ```
+
 
 
 ### Sur le routeur
