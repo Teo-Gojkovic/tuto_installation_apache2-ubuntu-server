@@ -97,6 +97,7 @@ Allez dans `Paramètre de la box` puis dans le `mode avancé` ensuite `Gestion d
 ![Alt text](images/port-freebox.png)
 
 Pour vous  rentre sur le site que vous venez de crée depuis l'exterieur vous devez simplement rentrer votre IP public suivi du port que vous avez ouvert.
+
 Ex : http://100.100.100.100:456
 
 ### Vous avez fini !
