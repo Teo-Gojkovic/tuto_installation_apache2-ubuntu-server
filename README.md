@@ -68,7 +68,7 @@ Changer le port  par défaut :
 ```bash
 sudo nano /etc/apache2/sites-available/000-default.conf
 ```
-Faire de meme dans /etc/apache2/ports.conf : 
+Faire de même dans /etc/apache2/ports.conf : 
 ```bash
 sudo nano /etc/apache2/ports.conf
 ```
