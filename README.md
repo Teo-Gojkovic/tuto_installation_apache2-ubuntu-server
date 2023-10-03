@@ -1,4 +1,4 @@
-# Comment installer un serveur wab sur ubuntu server ([Apache2](https://doc.ubuntu-fr.org/apache2)) : 
+# Comment installer un serveur web sur ubuntu server ([Apache2](https://doc.ubuntu-fr.org/apache2)) : 
 
 Un serveur HTTP permet à un site web de communiquer avec un navigateur en utilisant le protocole HTTP(S) et ses extensions (WebDAV, etc.). Apache est probablement le serveur HTTP le plus populaire. C'est donc lui qui met à disposition la plupart des sites Web du WWW.
 Il est produit par la Apache Software Foundation. C'est un logiciel libre fourni sous la licence spécifique Apache.
