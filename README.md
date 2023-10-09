@@ -1,8 +1,7 @@
 # Comment installer un serveur web sur ubuntu server ([Apache2](https://doc.ubuntu-fr.org/apache2)) : 
-
-![Alt text](../images/logo-apache.png)
-
-<img src="../images/logo-apache.png" align="center">
+<p align="center">
+    <img src="images/logo-apache.png" align="center" width="300px">
+</p>
 
 Un serveur HTTP permet à un site web de communiquer avec un navigateur en utilisant le
 protocole HTTP(S) et ses extensions (WebDAV, etc.). Apache est probablement le serveur
