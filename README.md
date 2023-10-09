@@ -1,19 +1,28 @@
 # Comment installer un serveur wab sur ubuntu server ([Apache2](https://doc.ubuntu-fr.org/apache2)) : 
 
-Un serveur HTTP permet à un site web de communiquer avec un navigateur en utilisant le protocole HTTP(S) et ses extensions (WebDAV, etc.). Apache est probablement le serveur HTTP le plus populaire. C'est donc lui qui met à disposition la plupart des sites Web du WWW.
-Il est produit par la Apache Software Foundation. C'est un logiciel libre fourni sous la licence spécifique Apache.
+![Alt text](../images/logo-apache.png)
 
-On utilise généralement Apache en conjonction avec d'autres logiciels, permettant d'interpréter du code et d'accéder à des bases de données. Le cas le plus courant est celui d'un serveur LAMP (Linux Apache MySQL PHP).
+<img src="../images/logo-apache.png" align="center">
+
+Un serveur HTTP permet à un site web de communiquer avec un navigateur en utilisant le
+protocole HTTP(S) et ses extensions (WebDAV, etc.). Apache est probablement le serveur
+HTTP le plus populaire. C'est donc lui qui met à disposition la plupart des sites Web du
+WWW.
+Il est produit par la Apache Software Foundation. C'est un logiciel libre fourni sous la licence
+spécifique Apache.D
+On utilise généralement Apache en conjonction avec d'autres logiciels, permettant
+d'interpréter du code et d'accéder à des bases de données. Le cas le plus courant est celui
+d'un serveur LAMP (Linux Apache MySQL PHP).
 
 ## Installation d'Apache2
-Avant de commencer on va mettre notre OS à jour : 
+Avant de commencer on va mettre notre OS à jour :
 ```bash
 apt-get update
 ```
 ```bash
 apt install apache2 -y
 ```
-*la condition `-y' est là pour éviter la confirmation du téléchargement plus tard.*
+*La condition `-y' est là pour éviter la confirmation du téléchargement plus tard.*
 
 ### Votre serveur est prêt !
  
@@ -78,9 +87,6 @@ On va maintenant ouvrir le port depuis Ubuntu Server :
 ```bash
 sudo ufw allow 456
 ```
-
-
-
 ### Sur le routeur
 celon le routeur c'est une prosedure differente qu'il faudra effectuer, ici on va le faire sur une FreeBox.
 
