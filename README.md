@@ -1,4 +1,4 @@
-# Comment installer un serveur wab sur ubuntu server ([Apache2](https://doc.ubuntu-fr.org/apache2)) : 
+# Comment installer un serveur web sur ubuntu server ([Apache2](https://doc.ubuntu-fr.org/apache2)) : 
 
 ![Alt text](../images/logo-apache.png)
 
